@@ -36,7 +36,7 @@ makeCacheMatrix <- function(x = matrix())
 ## The "cacheSolve" function takes a special "matrix" (created with the "makeCacheMatrix" function) as an 
 ## argument, and retrieves the value of its "inv" object, which corresponds to its inverse matrix.
 ## It then checks if that value has indeed been already calculated or not. If it has, then "cacheSolve"
-## simply returns it. If it hasn't, then "it "cacheSolve" computes it using the "solve" function, 
+## simply returns it. If it hasn't, then "cacheSolve" computes it using the "solve" function, 
 ## sets it for future fetching, and then returs it.
 
 cacheSolve <- function(x, ...)
